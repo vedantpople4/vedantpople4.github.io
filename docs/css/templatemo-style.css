@@ -429,7 +429,7 @@ footer hr
         position: absolute;
         content: " ";
         width: 3px;
-        background-color: #eeeeee;
+        background-color: #000000;
         left: 50%;
         margin-left: -1.5px;
       }
@@ -490,7 +490,7 @@ footer hr
         content: " ";
       }
       .timeline > li > .timeline-badge {
-        color: #fff;
+        color: black;
         width: 24px;
         height: 24px;
         line-height: 50px;
@@ -524,7 +524,7 @@ footer hr
         right: auto;
       }
       .timeline-badge > a {
-        color: #C5C7C5 !important;
+        color: black !important;
       }
       .timeline-badge a:hover {
         color: #000 !important;
@@ -562,8 +562,8 @@ footer hr
           
       }
       .tooltip.in{
-          /*opacity:0;
-          filter:alpha(opacity=80);*/
+          opacity:0;
+          filter:alpha(opacity=80);
           
       }
       .tooltip.top{
@@ -613,7 +613,7 @@ footer hr
       .tooltip-inner{
           width:200px;
           padding:3px 8px;
-          color:#fff;
+          color:black;
           text-align:center;
           text-decoration:none;
           background-color:#313131;
