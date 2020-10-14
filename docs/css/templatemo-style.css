@@ -290,7 +290,7 @@ h1,h2,h3,h4,h5
 /* start portfolio */
 #portfolio
     {
-        background: #1a1a1a;
+        background: black;
         text-align: center;
     }
 #portfolio h2
@@ -420,7 +420,7 @@ footer hr
 
     .timeline {
         list-style: none;
-        padding: 20px 0 20px;
+        padding: 20px 20px 20px;
         position: relative;
       }
       .timeline:before {
@@ -530,7 +530,7 @@ footer hr
         color: #000 !important;
       }
       .timeline-title {
-        margin-top: 0;
+        margin-top: 10;
         color: inherit;
       }
       .timeline-body > p,
