@@ -214,7 +214,7 @@ h1,h2,h3,h4,h5
 /* start work */
 #work
     {
-        background: #1a1a1a;
+        background: #000000;
     }
 #work h2
     {
@@ -290,7 +290,7 @@ h1,h2,h3,h4,h5
 /* start portfolio */
 #portfolio
     {
-        background: #1a1a1a;
+        background: #000000;
         text-align: center;
     }
 #portfolio h2
@@ -392,6 +392,7 @@ footer hr
     }
 /* end footer */
 
+
 /* start social icon */
 .social-icon
     {
@@ -418,3 +419,4 @@ footer hr
         color: #D43F52;
     }
 /* end social icon */
+
