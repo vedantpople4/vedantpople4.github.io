@@ -171,7 +171,7 @@ h1,h2,h3,h4,h5
 /* start home */       
 #home
 	{
-        
+        background-image: url('../images/new.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         padding-top: 120px;
@@ -194,8 +194,8 @@ h1,h2,h3,h4,h5
 #home .btn
     {
         background: transparent;
-        border: 2px solid #ffffff;
-        color: #ffffff;
+        border: 2px solid #000000;
+        color: #000000;
         font-size: 16px;
         font-weight: bold;
         width: 180px;
