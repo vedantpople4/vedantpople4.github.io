@@ -1,521 +1,275 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-		<title>Vedant Pople Portfolio</title>
-		<meta name="keywords" content="">
-		<meta name="description" content="">
-        <meta name="author" content="templatemo">
-        
-        
-		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/styles.css">
 
-		<!-- animate -->
-		<link rel="stylesheet" href="css/animate.min.css">
-		<!-- bootstrap -->
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<!-- font-awesome -->
-		<link rel="stylesheet" href="css/font-awesome.min.css">
-		<!-- google font -->
-		<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700,800' rel='stylesheet' type='text/css'>
-		<!-- fullpage -->
-		<link rel="stylesheet" href="css/jquery.fullPage.css">
-		<!-- custom -->
-		<link rel="stylesheet" href="css/templatemo-style.css">
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-	</head>
-	<body>
+        <title>Vedant Pople Portfolio</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Vedant</a>
+                </div>
 
-	<div id="fullpage">
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
 
-		<!-- start home -->
-		<div id="home" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-2"></div>
-					<div class="col-md-8 wow fadeIn" data-wow-delay="0.9s">
-						
-						<h1>VEDANT POPLE</h1>
-						<h2 class="rotate">MACHINE LEARNING,ARTIFICIAL INTELLIGENCE,OPEN CV,FLUTTER</h2>
-						<p>I AM A JUNIOR DEVELOPER WHO FINDS INSPIRATION TO CODE EVERYDAY</p>
-						<a href="Vedant Pople Resume.pdf" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s" download="Vedant Pople Resume.pdf">Download Resume</a>
-					</div>
-					<div class="col-md-2"></div>
-				</div>
-			</div>
-		</div>
-		<!-- end home -->
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
 
-		<!-- start work -->
-		<div id="work" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow bounce">
-						<h2>WHAT I DO</h2>
-					</div>
-                </div>  
-                
-                <div class="row">
-					<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
-						<div class="media">
-							<div class="media-object media-left">
-								<i class="fa fa-laptop"></i>
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Machine Learning</h3>
-								<p>Machine Learning helps me analyze huge volumes of data, gain insights from it and then use them to build models and obtain fruitful results.</p>
-							</div>
-						</div>
-					</div>
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Vedant</span><br>Software Developer</h1>
+
+                    <a href="#" class="button">Download Resume</a>
+                </div>
+
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/vedantpople/" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/vedantpople4" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                    <a href="https://twitter.com/vedantpople" class="home__social-icon"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://www.instagram.com/vedant.pople/" class="home__social-icon"><i class='bx bxl-instagram' ></i></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png"/>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
                     
-					<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
-						<div class="media">
-							<div class="media-object media-left">
-								<i class="fa fa-link"></i>
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Flutter</h3>
-								<p>Flutter helps me build apps quikly and interface the results obtained from data models.</p>
-							</div>
-						</div>
-					</div>
+                    <div>
+                        <h2 class="about__subtitle">I'am Vedant</h2>
+                        <p class="about__text">I believe learning is like volunteering for yourself. The more you do it the more you like it. Technology advances everyday, hence Consistency is the name of the game.</p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Profesional Skills</h2>
+                        <p class="skills__text">Professional Skils are the building blocks of any career. Being a software engineer by profession, I have tried many domains and tech stacks to implement a variety of projects. Hands-on skills portray the way you percieve a task and these are topped by projects you build. Moving forward I would like to explore Blockchain.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx'></i>
+                                <span class="skills__name">MACHINE LEARNING</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">95%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx'></i>
+                                <span class="skills__name">APPLICATION DEVELOPMENT (FLUTTER)</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx' ></i>
+                                <span class="skills__name">JAVA</span>
+                            </div>
+                            <div class="skills__bar skills__js">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">65%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx'></i>
+                                <span class="skills__name">C++</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">85%</span>
+                            </div>
+                        </div>
+                    </div>
                     
-					<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
-						<div class="media">
-							<div class="media-object media-left">
-								<i class="fa fa-paper-plane"></i>
-							</div>
-							<div class="media-body">
-								<h3 class="media-heading">Open CV</h3>
-								<p>Content Writing helps me to express my experiences about explorations I make both technically and personally.</p>
-							</div>
-						</div>
-					</div>
+                    <div>              
+                        <img src="assets/img/work3.jpg" alt="" class="skills__img">
+                    </div>
+                </div>
+            </section>
+            <!--===== EDUCATION =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Education</h2>
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>
+                    <div>
+                        <h2 class="about__subtitle"></h2>
+                        <ul class="about__text">
+                            <li>Vellore Institute of Technology, Vellore</li>
+                            <p class="about__text">Bachelor of Technology in Information Technology</p>
+                            <p class="about__text">CGPA : 8.37</p>
+<br>
+                            <li>Shiv Chatrapati College of Arts and Science, Aurangabad</li>
+                            <p class="about__text">High School</p>
+                            <p class="about__text">Percentage: 84.62%</p>
+<br>
+                            <li>Tender Care Home, Aurangabad</li>
+                            <p class="about__text">Elementary and Middle School</p>
+                            <p class="about__text">CGPA: 10.00</p>
+
+                        </ul>
+                    </div>            
+                </div>
+            </section>
+            <!--===== RESEARCH =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Professional Experience</h2>
+                <div class="about__container bd-grid">
                     
-				</div>
-			</div>
-		</div>
-		<!-- end work -->
+                    <div>
+                        <h2 class="about__subtitle"></h2>
+                        <ul class="about__text">
+                            <li>Data Analyst Intern</li>
+                            <p class="about__text">MedTourEasy</p>
+                            <p class="about__text">Experienced hands on working of a Data Analyst Professional and worked under supervision of project mentor & developed the project "Predict Blood Donation".</p>
+<br>
+                            <li>Operations Team</li>
+                            <p class="about__text">C4 Projects</p>
+                            <p class="about__text">Working in the Marketing, Blogs and Open Source team. Creating and Maintaining repositories for public use.</p>
+<br>
+                            <li>Data Science Intern</li>
+                            <p class="about__text">The Spark Foundation</p>
+                            <p class="about__text">Working on data collection and applying various algorithms to get most efficient results.</p>
+                            
 
-		<!-- start about -->
-		<div id="about" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-xs-11 wow fadeInLeft" data-wow-delay="0.9s">
-						<h2>ABOUT ME</h2>
-						<h4>PROGRAMMAR &AMP; DEVELOPER</h4>
-						<p>I believe learning a technical skill is like volunteering for yourself, if can only avail its benefits when you do it for yourself.</p>
-						<p>I am always amazed by upcoming advancements and try to implement them. Learning these skills has helped me make many projects.</p>
-					</div>
-					<div class="col-md-6 col-xs-11 wow fadeInRight" data-wow-delay="0.9s">
-						<span class="text-top">Machine Learning<small>85%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
-							</div>
-						<span>Flutter <small>80%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-							</div>
-						<span>C++ <small>90%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-							</div>
-						<span>Django<small>75%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-							</div>
-						<span>Flask <small>75%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-							</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- end about -->
-		<div id="about" class="section">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6 col-xs-11 wow fadeInLeft" data-wow-delay="0.9s">
-						<h2>MY EXPERIENCES</h2>
-						<h4>DEVELOPER &AMP; WRITER</h4>
-						<p>I believe learning a technical skill is like volunteering for yourself, if can only avail its benefits when you do it for yourself.</p>
-						<p>I am always amazed by upcoming advancements and try to implement them. Learning these skills has helped me make many projects.</p>
-					</div>
-					<div class="col-md-6 col-xs-11 wow fadeInRight" data-wow-delay="0.9s">
-						<span class="text-top">Machine Learning<small>85%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
-							</div>
-						<span>Flutter <small>80%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-							</div>
-						<span>C++ <small>90%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-							</div>
-						<span>Java <small>70%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-							</div>
-						<span>Flask <small>75%</small></span>
-							<div class="progress">
-								<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-							</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- end about -->
+                        </ul>
+                    </div> 
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>           
+                </div>
+            </section>
+            <!--===== RESEARCH =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">Research Publications</h2>
 
-		<!-- start portfolio -->
-		<div id="portfolio" class="section">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="wow bounce">MY PROJECTS</h2>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/img1.jpg" class="img-responsive" alt="portfolio img">
-						<a href="https://github.com/vedantpople4/Flask_blog"></a>	
-						<div class="portfolio-overlay">
-								<h4>Blog WebApp</h4>
-								<h5>A Blogging portal made using Flask.</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/img2.jpg" class="img-responsive" alt="portfolio img">
-						<a href="https://github.com/vedantpople4/Flask_ML_Model"></a>	
-						<div class="portfolio-overlay">
-								<h4>House Prediction Model</h4>
-								<h5>A Linear regression model to predict price deployed using Flask</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/img3.jpg" class="img-responsive" alt="portfolio img">
-							<div class="portfolio-overlay">
-								<h4>Login and Registration Interface</h4>
-								<h5>Login/Registration portal using Images</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/img4.jpg" class="img-responsive" alt="portfolio img">
-						<a href="https://github.com/vedantpople4/Login-and-registration"></a>	
-						<div class="portfolio-overlay">
-								<h4>Dice using Flutter</h4>
-								<h5>A dice app using flutter to pass time in class</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/img5.jpg" class="img-responsive" alt="portfolio img">
-						<a href="https://github.com/vedantpople4/dice_app"></a>	
-						<div class="portfolio-overlay">
-								<h4>ChatApp using Flutter</h4>
-								<h5>A flutter app to chat with your peers</h5>
-							</div>
-					</div>
-				</div>
-				<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-					<div class="portfolio-thumb">
-						<img src="images/img6.jpg" class="img-responsive" alt="portfolio img">
-						<a href="https://github.com/vedantpople4/Chat_SignIn_SingUp"></a>	
-						<div class="portfolio-overlay">
-								<h4>ML Projects</h4>
-								<h5>A repo to try basic Machine Learning Projects</h5>
-							</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<!-- end portfolio -->
-	
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="assets/img/about.jpg" alt="">
+                    </div>        
+                    <div>
+                        <h2 class="about__subtitle">Face Mask Detection for Real Time Video Streams</h2>
+                        <p class="about__text">The Face Mask Detection is a lightweight model that is used to check the correct usage of mask. The novelty of model lies in the fact that the detection happens in Real Time and no data is stored leading to complete privacy of User. Comparative analysis with other models portrays that this models performs well on resource starving small devices.</p>
+                        <br>
+                        <a href="https://spast.org/techrep/article/view/2554" class="button">Abstract</a>
+                    </div>            
+                </div>
+            </section>
 
-		<!-- start contact -->
-		<div id="contact" class="section">
-			<div class="container">
-				
-			</div>
-		</div>
-		<!-- end contact -->
+            <!--===== PROJECTS =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
 
-		<!-- start footer -->
-		<footer>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12 wow fadeIn" data-wow-delay="0.9s">
-						
-						<hr>
-						<ul class="social-icon">
-							<li><a href="#" class="fa fa-facebook"></a></li>
-							<li><a href="#" class="fa fa-twitter"></a></li>
-							<li><a href="#" class="fa fa-instagram"></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- end footer -->
-		
-	
+                <div class="work__container bd-grid">
+                    <a href="https://github.com/vedantpople4/Mask_detection" class="work__img">
+                        <img src="assets/img/websiteplanet-dummy-640X426.jpeg" alt="">
+                    </a>
+                    <a href="https://github.com/vedantpople4/essentialsapp" class="work__img">
+                        <img src="assets/img/websiteplanet-dummy-640X426 (1).jpeg" alt="">
+                    </a>
+                    <a href="https://github.com/vedantpople4/django_blog" class="work__img">
+                        <img src="assets/img/websiteplanet-dummy-640X426 (2).jpeg" alt="">
+                    </a>
+                    <a href="https://github.com/vedantpople4/PHP_BookStore" class="work__img">
+                        <img src="assets/img/websiteplanet-dummy-640X426 (3).jpeg" alt="">
+                    </a>
+                    <a href="https://github.com/vedantpople4/Streamlit_Classification_model" class="work__img">
+                        <img src="assets/img/websiteplanet-dummy-640X426 (4).jpeg" alt="">
+                    </a>
+                    <a href="https://github.com/vedantpople4/Flask_ML_Model" class="work__img">
+                        <img src="assets/img/websiteplanet-dummy-640X426 (5).jpeg" alt="">
+                    </a>
+                </div>
+            </section>
 
-		<!-- jQuery -->
-		<script src="js/jquery.js"></script>
-		<!-- bootstrap -->
-		<script src="js/bootstrap.min.js"></script>
-		<!-- fullpage -->
-		<script src="js/jquery.fullPage.js"></script>
-		<!-- smoothScroll -->
-		<script src="js/smoothscroll.js"></script>
-		<!-- wow -->
-		<script src="js/wow.min.js"></script>
-		<!-- text rotater -->
-		<script src="js/jquery.simple-text-rotator.js"></script>
-		<!-- custom -->
-		<script src="js/custom.js"></script>
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
 
-		
-		
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="Submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+        </main>
 
-			<div id="fullpage">
-		
-				<!-- start home -->
-				<div id="home" class="section">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-2"></div>
-							<div class="col-md-8 wow fadeIn" data-wow-delay="0.9s">
-								
-								<h1>VEDANT POPLE</h1>
-								<h2 class="rotate">PROGRAMMAR &AMP; DEVELOPER, FLUTTER &AMP; ML SPECIALIST,CONTENT WRITER, LEADER</h2>
-								<p>I AM A JUNIOR DEVELOPER WHO FINDS INSPIRATION TO CODE EVERYDAY</p>
-								<a href="#work" class="btn btn-default smoothScroll wow fadeInUp" data-wow-delay="1s">Get started</a>
-							</div>
-							<div class="col-md-2"></div>
-						</div>
-					</div>
-				</div>
-				<!-- end home -->
-		
-				<!-- start work -->
-				<div id="work" class="section">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12 wow bounce">
-								<h2>WHAT I DO</h2>
-							</div>
-						</div>  
-						
-						<div class="row">
-							<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
-								<div class="media">
-									<div class="media-object media-left">
-										<i class="fa fa-laptop"></i>
-									</div>
-									<div class="media-body">
-										<h3 class="media-heading">Machine Learning</h3>
-										<p>Machine Learning helps me analyze huge volumes of data, gain insights from it and then use them to build models and obtain fruitful results.</p>
-									</div>
-								</div>
-							</div>
-							
-							<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
-								<div class="media">
-									<div class="media-object media-left">
-										<i class="fa fa-link"></i>
-									</div>
-									<div class="media-body">
-										<h3 class="media-heading">Flutter</h3>
-										<p>Flutter helps me build apps quikly and interface the results obtained from data models.</p>
-									</div>
-								</div>
-							</div>
-							
-							<div class="col-md-4 col-xs-11 wow fadeInUp" data-wow-delay="0.6s">
-								<div class="media">
-									<div class="media-object media-left">
-										<i class="fa fa-paper-plane"></i>
-									</div>
-									<div class="media-body">
-										<h3 class="media-heading">Content Writing</h3>
-										<p>Content Writing helps me to express my experiences about explorations I make both technically and personally.</p>
-									</div>
-								</div>
-							</div>
-							
-						</div>
-					</div>
-				</div>
-				<!-- end work -->
-		
-				<!-- start about -->
-				<div id="about" class="section">
-					<div class="container">
-						<div class="row">
-							<div class="col-md-6 col-xs-11 wow fadeInLeft" data-wow-delay="0.9s">
-								<h2>ABOUT ME</h2>
-								<h4>DEVELOPER &AMP; WRITER</h4>
-								<p>I believe learning a technical skill is like volunteering for yourself, if can only avail its benefits when you do it for yourself.</p>
-								<p>I am always amazed by upcoming advancements and try to implement them. Learning these skills has helped me make many projects.</p>
-							</div>
-							<div class="col-md-6 col-xs-11 wow fadeInRight" data-wow-delay="0.9s">
-								<span class="text-top">Machine Learning<small>85%</small></span>
-									<div class="progress">
-										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
-									</div>
-								<span>Flutter <small>80%</small></span>
-									<div class="progress">
-										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div>
-									</div>
-								<span>C++ <small>90%</small></span>
-									<div class="progress">
-										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"></div>
-									</div>
-								<span>Java <small>70%</small></span>
-									<div class="progress">
-										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
-									</div>
-								<span>Flask <small>75%</small></span>
-									<div class="progress">
-										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div>
-									</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- end about -->
-		
-				<!-- start portfolio -->
-				<div id="portfolio" class="section">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<h2 class="wow bounce">MY PROJECTS</h2>
-						</div>
-						<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-							<div class="portfolio-thumb">
-								<img src="images/img1.jpg" class="img-responsive" alt="portfolio img">
-								<a href="https://github.com/vedantpople4/Flask_blog"></a>	
-								<div class="portfolio-overlay">
-										<h4>Blog WebApp</h4>
-										<h5>A Blogging portal made using Flask.</h5>
-									</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-							<div class="portfolio-thumb">
-								<img src="images/img2.jpg" class="img-responsive" alt="portfolio img">
-								<a href="https://github.com/vedantpople4/Flask_ML_Model"></a>	
-								<div class="portfolio-overlay">
-										<h4>House Prediction Model</h4>
-										<h5>A Linear regression model to predict price deployed using Flask</h5>
-									</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-							<div class="portfolio-thumb">
-								<img src="images/img3.jpg" class="img-responsive" alt="portfolio img">
-									<div class="portfolio-overlay">
-										<h4>Login and Registration Interface</h4>
-										<h5>Login/Registration portal using Images</h5>
-									</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-							<div class="portfolio-thumb">
-								<img src="images/img4.jpg" class="img-responsive" alt="portfolio img">
-								<a href="https://github.com/vedantpople4/Login-and-registration"></a>	
-								<div class="portfolio-overlay">
-										<h4>Dice using Flutter</h4>
-										<h5>A dice app using flutter to pass time in class</h5>
-									</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-							<div class="portfolio-thumb">
-								<img src="images/img5.jpg" class="img-responsive" alt="portfolio img">
-								<a href="https://github.com/vedantpople4/dice_app"></a>	
-								<div class="portfolio-overlay">
-										<h4>ChatApp using Flutter</h4>
-										<h5>A flutter app to chat with your peers</h5>
-									</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-xs-6 wow fadeIn" data-wow-delay="0.6s">
-							<div class="portfolio-thumb">
-								<img src="images/img6.jpg" class="img-responsive" alt="portfolio img">
-								<a href="https://github.com/vedantpople4/Chat_SignIn_SingUp"></a>	
-								<div class="portfolio-overlay">
-										<h4>ML Projects</h4>
-										<h5>A repo to try basic Machine Learning Projects</h5>
-									</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- end portfolio -->
-		
-				<!-- start contact -->
-				<div id="contact" class="section">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-5 col-lg-offset-1 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
-								<address>
-									<p class="contact-title">CONTACT ME</p>
-									<p><i class="fa fa-phone"></i> 9799774711 | 9787972224</p>
-									<p><i class="fa fa-envelope-o"></i>vedantpople4@gmail.com</p>
-									<p><i class="fa fa-map-marker"></i>1224, N6, Cico, Aurangabad</p>
-								</address>
-							</div>
-							<div class="col-lg-6 col-md-6 col-xs-10 wow fadeInUp" data-wow-delay="0.6s">
-								<form role="form" method="post" action="#">
-									<input name="name" type="text" class="form-control" id="name" placeholder="Your Name">
-									<input name="email" type="email" class="form-control" id="email" placeholder="Your Email">
-									<textarea name="message" rows="5" class="form-control" id="message" placeholder="Your Message"></textarea>
-									<input name="send" type="submit" class="form-control" id="send" value="SEND ME">
-								</form>
-							</div>
-							<div class="col-md-1 col-sm-1"></div>
-						</div>
-					</div>
-				</div>
-				<!-- end contact -->
-		
-				<!-- start footer -->
-				<footer>
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12 wow fadeIn" data-wow-delay="0.9s">
-								
-								<hr>
-								<ul class="social-icon">
-									<li><a href="#" class="fa fa-facebook"></a></li>
-									<li><a href="#" class="fa fa-twitter"></a></li>
-									<li><a href="#" class="fa fa-instagram"></a></li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</footer>
-				<!-- end footer -->
-		
-			</div>
-		
-				
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Vedant Pople</p>
+            <div class="footer__social">
+                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
+                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+            </div>
+            <p class="footer__copy">&#169;All rigths reserved</p>
+        </footer>
 
-	</body>
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
