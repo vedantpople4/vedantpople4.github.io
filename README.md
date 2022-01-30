@@ -1,4 +1,4 @@
 This is My Portfolio Website:
 
 
-[Welcome!](https://vedantpople4.github.io/Portfolio/){: .btn .btn-blue }
+[Welcome!](https://vedantpople4.github.io/Portfolio/)
