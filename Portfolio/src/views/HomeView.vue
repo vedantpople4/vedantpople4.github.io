@@ -4,8 +4,8 @@
   <HeroSection id="hero" pic="header.png">
     <template v-slot:welcome>Welcome!</template>
     My name is <b>Vedant Pople</b> and I'm a
-    <hi-word>Software engineer</hi-word>. My passion is building
-    <hi-word>web applications</hi-word> and
+    <hi-word>Software Engineer</hi-word>. My passion is building
+    <hi-word>Web applications</hi-word> and
     <hi-word>designing websites</hi-word> using modern frameworks. Currently
     looking for <b>Full time software development</b> opportunitites
     <template v-slot:buttons>
